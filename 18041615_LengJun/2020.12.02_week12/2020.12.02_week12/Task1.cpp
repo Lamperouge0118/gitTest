@@ -267,7 +267,7 @@ int main()
 	on_addImg(0,0);
 
 	waitKey(0);
-
+	imwrite("混合图.jpg", addedMat);
 	//结束计时
 	double time = ((double)getTickCount() - start) / getTickFrequency();
 	//显示时间
